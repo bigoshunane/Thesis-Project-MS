@@ -7,7 +7,7 @@ Due to the deformation two phenomena can happen; structural defects of powder pa
 Moreover, dislocation density introduced by plastic deformation of the particles attributes to the inhomogeneous microstructure of the green body, inducing 
 extension of interparticle contacts since plastic deformation modifies significantly the morphology of the contacts. 
 
-   ###.           ![anisotropic](https://user-images.githubusercontent.com/84547558/224313002-73533a27-c0a7-40c5-b36b-927ff72103b1.png)
+   ![anisotropic](https://user-images.githubusercontent.com/84547558/224313002-73533a27-c0a7-40c5-b36b-927ff72103b1.png)
 
 ### Objective
 
