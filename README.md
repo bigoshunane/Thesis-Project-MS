@@ -2,10 +2,13 @@
 
 ## Objective
 
-.1.  Verification of the anisotropy of dimensional change of the microstructures of uniaxially cold compacted green parts/austenitic steel powder AISI-316L
+1.  Verification of the anisotropy of dimensional change of the microstructures of uniaxially cold compacted green parts/austenitic steel powder AISI-316L
+
     by experimantal approach; i.e by measuring interparticles contact length of metallographic images.
-.2.  Verify sintering shrinkage equation developed in previous work considering time depending bulk diffusion coefficient, Deff.
-.3.  Verify FEM Model developed for prediction of particles deformation during cold compation along traversal and longitudinal directions.
+    
+2.  Verify sintering shrinkage equation developed in previous work considering time depending bulk diffusion coefficient, Deff.
+
+3.  Verify FEM Model developed for prediction of particles deformation during cold compation along traversal and longitudinal directions.
 
 
 # Background
