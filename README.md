@@ -38,3 +38,4 @@ extension of interparticle contacts since plastic deformation modifies significa
 ![loadapp](https://user-images.githubusercontent.com/84547558/224466099-5bda6e5c-1cd2-46d0-a66a-4f22a5d39240.png)
 
 
+## Results
