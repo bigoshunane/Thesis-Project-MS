@@ -102,7 +102,7 @@ expected to have the `actual values when the true stress-strain curve of AISI 31
   -  E. Klar, P.K. Samal, Powder Metallurgy Stainless Steels: Processing, Microstructures, and Properties, 2007, 1- 4.
   -  A. Salak, Ferrous Powder Metallurgy, Ed. Cambridge, International Science Publishing, (1995), 68 -78.
   -  I. M. Sas-Boca, T. canta, D. Frunza: 'Cold pressing powder with assisted friction compaction with high speed tools', Proceedings of Powder Metallurgy, RoPM 2005, Cluj-Napoca, Romania.
-  -  [H. Hofman,P. Bowen:'Powder technology', (2016 December 07)],(http://ltp.epfl.ch/files/content/sites/ltp/files/shared/Teaching/Master/06PowderTechnology/Compacton.pdf)
+  -  [H. Hofman,P. Bowen:'Powder technology', (2016 December 07)](http://ltp.epfl.ch/files/content/sites/ltp/files/shared/Teaching/Master/06PowderTechnology/Compacton.pdf)
   -  F. George,V. Voort, Metallography principles and practice, New York, McGraw-Hill, (1984), 99 – 24360.
   -  I. Cristofolini, G. Pederzini, A. Rambelli, A. Molinari: 'Densification and deformation during uiaxial cold compaction of stainless steel powder with different particle size', Powder Metallurgy, 2016, 59:1, 73 – 84.
   -  A. Molinari, E. Torresani: 'Preliminary study to determine the sintering stress from microstructural analysis of green parts', Powder Metallurgy, 2015, 58:5, 323 – 327.
