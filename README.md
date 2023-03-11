@@ -39,3 +39,8 @@ extension of interparticle contacts since plastic deformation modifies significa
 
 
 ## Results
+
+-  Contact length in transversal and longitudinal directions
+
+![contactlength](https://user-images.githubusercontent.com/84547558/224477353-2715fe97-bd44-47fd-9cc0-e8bb42918c6e.png)
+
