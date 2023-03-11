@@ -42,5 +42,22 @@ extension of interparticle contacts since plastic deformation modifies significa
 
 -  Contact length in transversal and longitudinal directions
 
-![contactlength](https://user-images.githubusercontent.com/84547558/224477353-2715fe97-bd44-47fd-9cc0-e8bb42918c6e.png)
+![contact_length](https://user-images.githubusercontent.com/84547558/224477884-3d3b6d42-c1fe-4843-af72-b1613a96243b.png)
+
+-  Prediction of shrinkage
+
+![shrinkage](https://user-images.githubusercontent.com/84547558/224478208-c4edbbf0-c95c-41f2-8f44-33e839eb5c9f.png)
+
+-  Effective diffusivity
+
+![Deff](https://user-images.githubusercontent.com/84547558/224478837-abd5fa61-d71a-40fe-a908-49c85f66c57f.png)
+
+
+-  Verification of FEM model for particle deformation
+
+![ansys-1](https://user-images.githubusercontent.com/84547558/224478853-39778df7-8ec7-4cfb-8074-2cf759cda529.png)
+
+![asys-2](https://user-images.githubusercontent.com/84547558/224478860-ea2ca3d8-3a7b-4c9c-b573-d153f9e3a09e.png)
+
+![ansys-3](https://user-images.githubusercontent.com/84547558/224478863-96692563-a113-4746-87de-241f1ffcd105.png)
 
