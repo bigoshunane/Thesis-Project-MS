@@ -92,3 +92,20 @@ expected to have the `actual values when the true stress-strain curve of AISI 31
 - [Prof. Alberto Molinari](https://www.aitem.org/Materialiadditive/en/2018/05/12/prof-alberto-molinari/)
 - [Sasan Amir](https://www.linkedin.com/in/sasanamir/)
 - [Marco Zago](https://www.linkedin.com/in/marco-zago-440724a9/)
+
+
+### References
+
+1. I. Cristofolini, G. Pederzini, A. Rambelli, A. Molinari: Study of the uniaxially cold compaction of AISI 316L stainless steel powders through single action tests', Powder Technology, 2016, 295, 284-295.
+2.  E. Torresani, I. Cristofolini, A. Molinari: 'Study of the anisotropic microstructure of the uniaxially cold compacted green parts'
+3. A. Molinari, E. Torresani, C. Menapace, M. Larsson: ''The anisotropy of dimensional change on sintering of iron'', The Americam Ceramic Society, 2015, 98:11, 3431-3437.
+4. E. Klar, P.K. Samal, Powder Metallurgy Stainless Steels: Processing, Microstructures, and Properties, 2007, 1- 4.
+5. A. Salak, Ferrous Powder Metallurgy, Ed. Cambridge, International Science Publishing, (1995), 68 -78.
+6. I. M. Sas-Boca, T. canta, D. Frunza: 'Cold pressing powder with assisted friction compaction with high speed tools', Proceedings of Powder Metallurgy, RoPM 2005, Cluj-Napoca, Romania.
+7. H. Hofman,P. Bowen:'Powder technology', (2016 December 07), http://ltp.epfl.ch/files/content/sites/ltp/files/shared/Teaching/Master/06PowderTechnology/Compacton.pdf
+8. F. George,V. Voort, Metallography principles and practice, New York, McGraw-Hill, (1984), 99 – 24360.
+9. I. Cristofolini, G. Pederzini, A. Rambelli, A. Molinari: 'Densification and deformation during uiaxial cold compaction of stainless steel powder with different particle size', Powder Metallurgy, 2016, 59:1, 73 – 84.
+10. A. Molinari, E. Torresani: 'Preliminary study to determine the sintering stress from microstructural analysis of green parts', Powder Metallurgy, 2015, 58:5, 323 – 327.
+11.  A. Molinari, E. Torresani, C. Menapace, M. Larsson: ''The anisotropy of dimensional change on sintering of iron'', The Americam Ceramic Society, 2015, 98:11, 3431-3437.
+12. A. Molinari et.al: 'Effect of carbon and nitrogen content on deformation and fracture of AISI 304 stainless steel', Frattura ed integrita strutturale, 4(2008), 12 – 19.
+
