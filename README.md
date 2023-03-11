@@ -96,10 +96,10 @@ expected to have the `actual values when the true stress-strain curve of AISI 31
 
 ### References
 
-1. I. Cristofolini, G. Pederzini, A. Rambelli, A. Molinari: Study of the uniaxially cold compaction of AISI 316L stainless steel powders through single action tests', Powder Technology, 2016, 295, 284-295.
-2.  E. Torresani, I. Cristofolini, A. Molinari: 'Study of the anisotropic microstructure of the uniaxially cold compacted green parts'
-3. A. Molinari, E. Torresani, C. Menapace, M. Larsson: ''The anisotropy of dimensional change on sintering of iron'', The Americam Ceramic Society, 2015, 98:11, 3431-3437.
-4. E. Klar, P.K. Samal, Powder Metallurgy Stainless Steels: Processing, Microstructures, and Properties, 2007, 1- 4.
+  -  I. Cristofolini, G. Pederzini, A. Rambelli, A. Molinari: Study of the uniaxially cold compaction of AISI 316L stainless steel powders through single action tests', Powder Technology, 2016, 295, 284-295.
+  -  E. Torresani, I. Cristofolini, A. Molinari: 'Study of the anisotropic microstructure of the uniaxially cold compacted green parts'
+  -  A. Molinari, E. Torresani, C. Menapace, M. Larsson: ''The anisotropy of dimensional change on sintering of iron'', The Americam Ceramic Society, 2015, 98:11, 3431-3437.
+  -  E. Klar, P.K. Samal, Powder Metallurgy Stainless Steels: Processing, Microstructures, and Properties, 2007, 1- 4.
 5. A. Salak, Ferrous Powder Metallurgy, Ed. Cambridge, International Science Publishing, (1995), 68 -78.
 6. I. M. Sas-Boca, T. canta, D. Frunza: 'Cold pressing powder with assisted friction compaction with high speed tools', Proceedings of Powder Metallurgy, RoPM 2005, Cluj-Napoca, Romania.
 7. H. Hofman,P. Bowen:'Powder technology', (2016 December 07), http://ltp.epfl.ch/files/content/sites/ltp/files/shared/Teaching/Master/06PowderTechnology/Compacton.pdf
