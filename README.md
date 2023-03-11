@@ -85,3 +85,8 @@ strain hardening coefficiend modifiy the results.
 
   -  Neverthless, the ratio between contact lengths is very close to the measured one; hence, it will be
 expected to have the `actual values when the true stress-strain curve of AISI 316L will be used`.
+
+## Authors
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
