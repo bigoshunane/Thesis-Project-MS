@@ -28,10 +28,10 @@ extension of interparticle contacts since plastic deformation modifies significa
       -  A. Measuring interparticles contact length.
       -  B. Measuring particles mean diameter and equivalent diameter is computed.
 -  Contact length measurement
--  ![contactlengthmeasurement](https://user-images.githubusercontent.com/84547558/224465971-fa1b1994-f17d-4d85-a448-c4b3373fb8bd.png)
+![contactlengthmeasurement](https://user-images.githubusercontent.com/84547558/224465971-fa1b1994-f17d-4d85-a448-c4b3373fb8bd.png)
 
 -  Mean diameter measurement and equivalent diameter computation and how parameters selected for FEM model
 -  ![Deqqmeasurement](https://user-images.githubusercontent.com/84547558/224466043-b7059765-e83e-45f8-a74b-b824b4eae41b.png)
--  ![loadapp](https://user-images.githubusercontent.com/84547558/224466099-5bda6e5c-1cd2-46d0-a66a-4f22a5d39240.png)
+![loadapp](https://user-images.githubusercontent.com/84547558/224466099-5bda6e5c-1cd2-46d0-a66a-4f22a5d39240.png)
 
 
