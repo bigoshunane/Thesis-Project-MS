@@ -63,25 +63,25 @@ extension of interparticle contacts since plastic deformation modifies significa
 
 ## Summary
   -  The measurement of length of interparticle contact regions verified the anisotropy of dimensional
-change 'resulting in differet values' along both traversal and longitudinal directions.
+change `resulting in differet values` along both traversal and longitudinal directions.
   -  The contact number & effective contact number along transversal & longitudinal directions also
-verified the anisotropy of shrinkge showing different values along the two directions and slightly
+verified the `anisotropy of shrinkge showing different values along the two directions` and slightly
 increasing on increasing green density & particle size.
-  -  The values of shrinkage estimated by introducing measured contact lengths in a theoretically
-developed shrinkage kinetics equation verified the anisotropy of sintering shrinkage by resulting
+  -  The `values of shrinkage estimated` by introducing measured contact lengths in a theoretically
+developed shrinkage kinetics equation `verified the anisotropy of sintering shrinkage` by resulting
 in different values along both directions.
-  -  The effective diffusivity suitable during sintering cycle for the green part has been calculated to
+  -  The `effective diffusivity` suitable during `sintering cycle` for the green part has been calculated to
 account for overestimation made during shrinkage estimation & it increases on increasing density
 and particle size, but more pronounced along longitudinal direction.
 
-  -  FEM model developed for deformation of a particle during cold compaction has been verified by
+  -  `FEM model developed for deformation of a particle during cold compaction has been verified` by
 introducing measured equivalent diameter of the particles, stress-strain curve data points & other
-material properties. The resut showed very close with 1% deviation in ratio with the measured
+material properties. The resut showed very close with `1% deviation in ratio` with the measured
 values.
 
-  -  The theoretical calculation does not predict properly the contact length due to deformation,
-because the real stress-strain curve of AISI 316L was not used; the differences in yield strength &
+  -  The `theoretical calculation does not predict properly the contact length due to deformation`,
+because `the actual stress-strain curve of AISI 316L was not used`; the differences in yield strength &
 strain hardening coefficiend modifiy the results.
 
   -  Neverthless, the ratio between contact lengths is very close to the measured one; hence, it will be
-expected to have the real values when the true stress-strain curve of AISI 316L will be used.
+expected to have the `actual values when the true stress-strain curve of AISI 316L will be used`.
