@@ -4,7 +4,7 @@
 THE STUDY OF THE ANISOTROPIC MICROSTRUCTURE OF THE UNIAXIALLY COLD COMPACTED METAL POWDERS (GREEN PARTS)
 ## Background
 Most theoretical works do not consider plastic deformation of metal powder particles when uniaxially cold compacted. 
-Due to the deformation two phenomena can happen; structural defects of powder particles (structural activity) which is expected to influence mass transport phenomenon responsible for anisotropy of shrinkage and extension on contact regions (geometrical activity) which modifies the relationship between the neck size growth and shrinkage of particles resulting in anisotropy of dimensional change.
+Due to deformation of particles two phenomena can happen; structural defects of powder particles (structural activity) which influences mass transport phenomenon responsible for anisotropy of shrinkage and extension on contact regions (geometrical activity) which modifies the relationship between the neck size growth and shrinkage of particles resulting in anisotropy of dimensional change.
 Moreover, dislocation density introduced by plastic deformation of the particles attributes to the inhomogeneous microstructure of the green body, inducing 
 extension of interparticle contacts since plastic deformation modifies significantly the morphology of the contacts.
 
