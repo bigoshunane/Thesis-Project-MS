@@ -1,0 +1,38 @@
+/POST1
+ /GRAPHICS,power
+ /EFACET,2   ! permette di estrarre i valori nodali del nodi MIDSIDE
+               ! SOLAMENTE usando comando list. /EFACET non è supportato da *VGET
+
+lsel,s,line,,1 !15
+nsll,s
+
+*GET,NCOUNT,node,,count  ! get total number of selected nodes
+*DIM,NARRAY,array,NCOUNT,7  ! creo matrice con 2NCOUNT" righe e 3 colonne
+
+*do,j,1,48,1  !60
+SET,j,last,1
+  
+!set,j
+!SBSTEP,last
+!FACT,1
+
+str1 = strcat(chrval(j+1000),'')   !StrOut = STRCAT(Str1,Str2) Add Str2 at the end of Str1
+*CFOPEN,str1,txt    ! creo file txt di nome ftxt
+
+*vwrite
+('nodenum',10x,'X',10x,'Y',12X,'UX',14X,'UY',16X,'FY',18X,'pl_str')
+*VGET,NARRAY(1,1),node, ,NLIST
+*VGET,NARRAY(1,2),node,1,loc,x
+*VGET,NARRAY(1,3),node,1,loc,y
+*VGET,NARRAY(1,4),node,1,u,x
+*VGET,NARRAY(1,5),node,1,u,y
+*VGET,NARRAY(1,6),node,all,S,y    !????????????????????????????????????????
+*VGET,NARRAY(1,7),node,1,EPPL,eqv
+
+*VWRITE,NARRAY(1,1),NARRAY(1,2),NARRAY(1,3),NARRAY(1,4),NARRAY(1,5),NARRAY(1,6),NARRAY(1,7)
+(F8.2,2X,E13.5,2X,E13.5,2X,E13.5,2X,E13.5,2X,E13.5,2X,E13.5)
+
+!/FORMAT,7,E,12,10
+
+
+*enddo

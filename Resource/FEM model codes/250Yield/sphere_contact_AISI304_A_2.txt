@@ -1,0 +1,407 @@
+FINISH
+/CLEAR,START,NEW
+
+/FILENAME,multiphysics
+/TITLE,contatto_pl
+
+!---------------------------------------------------------------
+! DEFINIZIONE PARAMENTRI
+!---------------------------------------------------------------
+!                     GEOMETRIA
+
+*SET,R1,0.000016  ![metri]
+*SET,R2,0.000032  ![metri]
+
+!*SET,R1,0.026/2  ![mm]
+!*SET,R2,0.051/2  ![mm]
+*SET,pigreco,acos(-1)  ! 3.14159265
+
+!                     MATERIALE
+
+*SET,E_modulus_1,190*1e9  !200000  ! [MPa]
+*SET,n_poisson_1,0.3     ! [-]
+
+
+
+
+
+
+
+
+!                 CONDIZIONE DI CARICO
+*SET,pr_as,337*1e6  ! [MPa] axial pressure 
+             ! 0.436904 [MPa] radial pressure
+
+
+
+
+
+
+
+
+
+
+!                    MESH
+*SET,ndiv1,12 !10*(2*R1*pigreco)/4
+*SET,ndiv2,12 !10*(2*R2*pigreco)/4
+!--------------------------------------------------------
+!                   ELEMENT TYPE
+/PREP7 
+ET,1,183
+
+      ! elemento a piano a 8 nodi (vertice+meta lato)
+KEYOPT,1,3,1  ! option condizione assialsimetria  !NON CHIARA IPOTESI ASSIALSIMMETRIA
+
+ET,2,172      ! elemento CONTA a 3 nodi
+KEYOPT,2,5,1 ! 1 consigliato da presentazione ansys  ! =3 keyopt Auto cnof: CLOSE GAP (consigliata da fontanari)
+KEYOPT,2,7,1  ! keyopt Contact time/load predicition:AUTO CUT-BACK (consigliata da fontanari)
+KEYOPT,2,9,1  ! keyopt Initial penetration EXCLUDE (consigliata da fontanari)
+
+KEYOPT,2,10,2 ! non sicuro
+
+R,1, , ,0.1,0.1  !, , , ,5e-7 ! definisco costanti associate all'elmento
+                ! 1 consigliato da Ansys .. 0.1 (prima 0.2 o 5) è Normal Penaly Stiffness(consigliato da fontanari)
+                ! 0.01 Penetration Tollerance
+                ! 5e-7 is PMIN: lower limit of initial allowable penetration
+ET,3,169      ! elemento TARGET
+
+
+!--------------------------------------
+! DEFINIZIONE MATERIALE
+
+
+MP,EX,1,E_modulus_1    
+MP,PRXY,1,n_poisson_1
+
+
+!--------------------------------------------------------------------------------------------------------
+!                  INCRUDIMENTO ISOTROPO
+
+TB,PLASTIC,1,1,6,MISO   !definisce incrudimento "multilineare isotropo (bilinear isotropic hardening)"
+                  ! 1 è il n° del materiale
+                  ! 1 numero di temperature alle quali sono riferite i punti. 1 è di default
+                  ! 7 è il numero di punti usati per definire la curva Stress_Strain
+                  
+TBTEMP,0.0        ! 0.0 è la temperatura di default a cui sono riferiti
+                  ! i punti strain stress 
+
+TBPT,DEFI,0,250*1e6       ! definisco: plastic strain (0) e yield streng (200 MPa)
+
+TBPT,DEFI,0.01,513*1e6   ! punti ricavati supponendo equazione:
+                      ! sigma = sigma_yield + K*e^n
+                      ! 
+TBPT,DEFI,0.1,764*1e6
+TBPT,DEFI,0.2,911*1e6
+
+TBPT,DEFI,0.3,1039*1e6
+TBPT,DEFI,0.4,1702*1e6
+
+!----------------------------------------------------------
+!          COSTRUZIONE MODELLO
+
+k,1,0,0
+
+LOCAL,100,1,0,R1
+
+k,2,R1,-70
+k,3,R1,-45
+K,4,R1,0
+K,5,R1/2,0
+K,6,0,0
+K,7,R1/2,270
+K,8,5*R1/6,270
+K,9,5*R1/6,-70
+K,10,R1/8+R1/2,-45
+
+l,1,2
+l,2,3
+l,3,4
+l,8,9
+
+CSYS,0
+
+l,4,5
+l,5,6
+l,6,7
+l,7,8
+l,8,1
+
+l,7,10
+l,3,10
+l,10,5
+l,9,10
+l,9,2
+
+AL,1,14,4,9
+AL,4,13,10,8
+AL,13,11,2,14
+AL,10,12,6,7
+AL,12,5,3,11
+
+!----------------------------------------------------------
+!            MESH
+!----------------------------------------------------------
+LSEL,S,line,,1
+LSEL,A,line,,4
+LSEL,A,line,,10
+LESIZE,all, , ,ndiv1*3,3
+LSEL,S,line,,6
+LESIZE,all, , ,ndiv1*3,0.3
+
+LSEL,S,line,,14
+LSEL,A,line,,9
+LESIZE,all, , ,ndiv1*2,0.1
+
+LSEL,S,line,,11
+LSEL,A,line,,5
+LESIZE,all, , ,ndiv1*2,10
+
+LSEL,S,line,,8
+LESIZE,all, , ,ndiv1,0.5
+
+LSEL,S,line,,13
+LSEL,A,line,,2
+LESIZE,all, , ,ndiv1,2
+
+LSEL,S,line,,7
+LSEL,A,line,,12
+LSEL,A,line,,3
+LESIZE,all, , ,ndiv1
+
+allsel,all
+AATT,1,,1 ! definisco materiale real(non definito) e elemento
+
+!mshape,0,2D ! mesh con quadrilateri
+mshape,1,2D  ! mesh con triangoli
+Mshkey,1
+amesh,all
+
+LOCAL,1000,1,0,-R2
+k,11,R2,90
+k,12,R2,70
+k,13,R2,45
+K,14,R2,0
+K,15,R2/2,0
+K,16,0,0
+K,17,R2/2,90
+K,18,5*R2/6,90
+K,19,5*R2/6,70
+K,20,R2/8+R2/2,45
+
+l,11,12 ! line 15
+l,13,12  ! line 16
+l,14,13  ! line 17
+l,18,19
+
+CSYS,0
+l,14,15
+l,15,16
+l,16,17
+l,17,18
+l,18,11
+
+l,17,20
+l,20,13   ! linea 24
+l,20,15
+l,19,20
+l,19,12
+
+AL,15,23,18,28
+AL,16,25,27,28
+AL,25,17,19,26
+AL,26,20,21,24
+AL,22,18,27,24
+
+
+
+LSEL,S,line,,18
+LSEL,A,line,,15     !LSEL,A,line,,24
+LESIZE,all, , ,ndiv2*3,3
+LSEL,S,line,,24
+LSEL,A,line,,20
+LESIZE,all, , ,ndiv2*3,0.3
+
+LSEL,S,line,,23
+LSEL,A,line,,28
+LESIZE,all, , ,ndiv2*2,0.1
+
+LSEL,S,line,,25
+LSEL,A,line,,19
+LESIZE,all, , ,ndiv2*2,10
+
+LSEL,S,line,,22
+LSEL,A,line,,16
+LESIZE,all, , ,ndiv2,0.5
+
+
+LSEL,S,line,,27
+LESIZE,all, , ,ndiv2,2
+
+LSEL,S,line,,21
+LSEL,A,line,,26
+LSEL,A,line,,17
+LESIZE,all, , ,ndiv2
+
+allsel,all
+AATT,1,,1 ! definisco materiale real(non definito) e elemento
+
+!mshape,0,2D ! mesh con quadrilateri
+mshape,1,2D  ! mesh con triangoli
+Mshkey,1
+amesh,all
+
+
+!--------------------------------------------
+!  DEFINIZIONE CONTATTO SFERA ALTA
+LSEL,S,line,,1
+LSEL,A,line,,2
+LSEL,A,line,,3
+TYPE,2           ! definisco elemento CONTA     
+REAL,1
+MAT,1
+lmesh,all
+allsel,all
+
+!--------------------------------------------
+!  DEFINIZIONE CONTATTO SFERA BASSA
+
+LSEL,S,line,,16
+LSEL,A,line,,17
+TYPE,3          ! definisco elemento TARGET
+REAL,1
+MAT,1
+lmesh,all
+allsel,all
+
+LSEL,S,line,,15
+TYPE,3
+REAL,1
+MAT,1
+lmesh,all
+
+LSEL,S,line,,15  ! inversione direzione normale di contatto
+esll,s
+ESURF,,REVERSE 
+
+!--------------------------------------------
+!    DEFINIZIONE CONTATTO PUNTUALE
+
+
+
+!------------------------------------------------------
+!                    SOLUZIONE
+!-----------------------------------------------------
+/SOLUTION
+ANTYPE,STATIC,NEW ! specifica il tipo di analisi (statica,transiente,dinamica..)
+NLGEOM,on        !VADO A includere(ON) effetti di larghe deflessioni
+AUTOTS,ON        ! VADO a specificare di usare load step automaticamente
+OUTRES,all,last  ! controllo che soluzioni da salvare nel database
+                 !in questo caso tutte per ogni step(all) ma solo 
+                 ! le ultime per ogni substep(last)
+EQSLV,sparse   !pcg, ,2        ! specifica il tipo di equazioni da usare per risolvere prob
+                 ! scelgo "EQSLV,pcg" (è quello che fontanari sceglie sempre)
+
+RESCONTROL,define,last,last !controllo i file da salvare per "multiframe" restarts
+                            !(DEFINE) con questo comando vado a specificare
+                            ! quanto frequentemente il file di restats .Xnnn vado a 
+                            ! scriverlo per load step
+                            !(LAST) specifica che il file .Xnnn
+                            ! va scritto con la stessa freq per ogni load step
+                            !(LAST)specifa che il file .Xnnn viene scritto solo 
+                            ! quello relativo all'ultimo substep per ogni load step
+
+
+NROPT,full, ,off !DEFINISCO OPZIONI DEL METODO DI Netwon-Raphson
+                 ! in qusto caso specifico di usare il metodo di
+                 ! N-R totale(full), e di non usare funzione adattativa discendente (off)
+LNSRCH,AUTO        ! attiva la ricerca lineare della soluzione tramite metodo N-R
+                   !(AUTO) Ansys va a decidere automaticamente
+                   ! se usare la ricerca lineare tra i diversi sub step
+
+NCNV,1           !VADO a indicare quando terminare l'analis
+                 !(0) consigliato da presentazione ERKE_WANG_ANSYS_CONTACT: serve a trascurare l'errore: ELEMENT XXX TURNING INSIDE OUT
+                 !(1) è default che indica che l'analisi termina quando ho convergenza (consigliato da fontanari)
+
+KBC,0           ! specifico se ho se ho loading a rama o a passi
+                ! con (0) indico che ho passi lineari calcolati in base al passo precedente
+                ! se mettevo (1) indicavo che al primo substep del nuovo load step cambiavo la
+                ! pendenza  
+CNVTOL,u, ,0.01,2     !DEFINISCO i valori per la convergenza per problema non lineare
+                      ! (u) criterio di convergenza basato sullo spostamento
+                      ! (0.001) specifico tolleranza se SOLCONTROL è off
+                      ! Help suggerisce toll=0.05 (5%) per lo spostamento quando non sono presenti spostamenti di rotazione
+                      ! (2) specifico che norma usare, è quella  di default
+
+
+!-----------------------------------------------------
+!       DEFINIZIONE VINCOLO SIMMETRIA
+lsel,S,loc,x,-1e-4,1e-4
+      !lsel,S,line,,3
+      !lsel,S,line,,5
+nsll,s,1
+DSYM,SYMM,X
+!DL,all,SYMM,UX
+allsel,all
+
+
+!-----------------------------------------------------
+!        DEFINIZIONE VINCOLO SFERA BASSA
+
+lsel,S,line,,19,20
+nsll,s,1
+D,all,uy,0.0
+allsel,all
+
+
+!----------------------------------------
+! pressione imposta
+!----------------------------------------
+
+*do,k,1,10,1
+    time,k
+    nsubstep,100
+    LSEL,s,line,,5,6
+    nsll,s,1
+    SF,all,pres,pr_as*k/1000    !d,all,uy,-0.0005*k/30                        
+    allsel,all
+    outres,all,last
+    lswrite,k
+*enddo
+
+*do,k,11,19,1
+    time,k
+    nsubstep,100
+    LSEL,s,line,,5,6
+    nsll,s,1
+    SF,all,pres,pr_as/100 + pr_as*(k-10)/100   !d,all,uy,-0.0005*k/30                        
+    allsel,all
+    outres,all,last
+    lswrite,k
+*enddo
+
+*do,k,20,53,1
+    time,k
+    nsubstep,100
+    LSEL,s,line,,5,6
+    nsll,s,1
+    SF,all,pres,pr_as/10+pr_as*(k-19)/40    !d,all,uy,-0.0005*k/30                        
+    allsel,all
+    outres,all,last
+    lswrite,k
+*enddo
+
+
+*do,k,54,55,1
+    time,k
+    nsubstep,100
+    LSEL,s,line,,5,6
+    nsll,s,1                      
+    SF,all,pres,pr_as-pr_as*(k-53)/2       !d,all,uy,-0.0005 + 0.0005*(k-30)/30                  
+    allsel,all
+    outres,all,last
+    lswrite,k
+*enddo
+
+lssolve,1,55
+finish
+
