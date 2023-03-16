@@ -57,9 +57,9 @@ extension of interparticle contacts since plastic deformation modifies significa
 
 ![ansys-1](https://user-images.githubusercontent.com/84547558/224478853-39778df7-8ec7-4cfb-8074-2cf759cda529.png)
 
-![asys-2](https://user-images.githubusercontent.com/84547558/224478860-ea2ca3d8-3a7b-4c9c-b573-d153f9e3a09e.png)
+![ansys-2](https://user-images.githubusercontent.com/84547558/225506401-7b5ed0e1-d950-470b-836c-d0f2f1865c20.png)
 
-![ansys-3](https://user-images.githubusercontent.com/84547558/224478863-96692563-a113-4746-87de-241f1ffcd105.png)
+![ansys-3](https://user-images.githubusercontent.com/84547558/225506425-d45d6b09-51ff-4165-a90a-d12b38d4328a.png)
 
 ## Summary
   -  The measurement of length of interparticle contact regions verified the anisotropy of dimensional
