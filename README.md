@@ -12,7 +12,7 @@ extension of interparticle contacts since plastic deformation modifies significa
  ![anisotropic](https://user-images.githubusercontent.com/84547558/224463187-c3cc9a14-fafd-405b-90de-b12b18b4c54d.png)
  
  
- ![coldcompaction](https://user-images.githubusercontent.com/84547558/224465082-60a02c59-aea5-4381-b6c9-db2de0404387.png)
+ ![coldcompaction](https://user-images.githubusercontent.com/84547558/225505944-65618106-701f-4be8-8a4c-7858b4bbee7e.png)
  
     Fig.1 Micrograph showing morphological change of particles during cold compaction.
 ## Objective (What?)
@@ -34,8 +34,8 @@ extension of interparticle contacts since plastic deformation modifies significa
 
 -  Mean diameter measurement and equivalent diameter computation and how parameters selected for FEM model
 
-![Deqqmeasurement](https://user-images.githubusercontent.com/84547558/224466043-b7059765-e83e-45f8-a74b-b824b4eae41b.png)
-![loadapp](https://user-images.githubusercontent.com/84547558/224466099-5bda6e5c-1cd2-46d0-a66a-4f22a5d39240.png)
+![equivalant diameter](https://user-images.githubusercontent.com/84547558/225505992-9a3a0f9d-211c-4ab8-9bc5-27064c5435cb.png)
+![load applied caculation](https://user-images.githubusercontent.com/84547558/225506011-10700d33-b786-41c5-8aa6-a49720dd745e.png)
 
 
 ## Results
