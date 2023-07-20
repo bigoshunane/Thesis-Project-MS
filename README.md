@@ -16,7 +16,7 @@ extension of interparticle contacts since plastic deformation modifies significa
  
     Fig.1 Micrograph showing morphological change of particles during cold compaction.
 ## Objective (What?)
--  Verification of the anisotropy of dimensional change of the microstructures of uniaxially cold compacted green parts/austenitic steel powder AISI-316L; by experimantal approach; i.e by measuring interparticles contact length of metallographic images.
+-  Verification of the anisotropy of dimensional change of the microstructures of uniaxially cold compacted green parts/austenitic steel powder AISI-316L; by experimental approach; i.e by measuring interparticles contact length of metallographic images.
     
 -  Verify sintering shrinkage equation developed in previous work considering time depending bulk diffusion coefficient (Deff).
 
