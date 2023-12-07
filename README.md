@@ -89,7 +89,7 @@ expected to have the `actual values when the true stress-strain curve of AISI 31
 ## Authors
 
 - [Workineh Shunane](https://www.linkedin.com/in/workineh-shunane/)
-- [Prof. Alberto Molinari]([https://www.aitem.org/Materialiadditive/en/2018/05/12/prof-alberto-molinari/](https://webapps.unitn.it/du/en/Persona/PER0004157/Didattica))
+- [Prof. Alberto Molinari]([https://www.aitem.org/Materialiadditive/en/2018/05/12/prof-alberto-molinari/](https://webapps.unitn.it/du/en/Persona/PER0004157/Didattica)/)
 - [Sasan Amir](https://www.linkedin.com/in/sasanamir/)
 - [Marco Zago](https://www.linkedin.com/in/marco-zago-440724a9/)
 
