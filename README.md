@@ -1,7 +1,7 @@
 
 
 # Project Title
-THE STUDY OF THE ANISOTROPIC MICROSTRUCTURE OF THE UNIAXIALLY COLD COMPACTED METAL POWDERS (GREEN PARTS)
+THE STUDY OF THE ANISOTROPIC MICROSTRUCTURE OF THE UNIAXIALLY COLD COMPACTED METAL POWDER (GREEN PARTS)
 ## Background
 Most theoretical works do not consider plastic deformation of metal powder particles when uniaxially cold compacted. 
 Due to deformation of particles, two phenomena can happen; structural defects of powder particles (structural activity) which influences mass transport phenomenon responsible for anisotropy of shrinkage and extension on contact regions (geometrical activity) which modifies the relationship between the neck size growth and shrinkage of particles resulting in anisotropy of dimensional change.
@@ -89,7 +89,7 @@ expected to have the `actual values when the true stress-strain curve of AISI 31
 ## Authors
 
 - [Workineh Shunane](https://www.linkedin.com/in/workineh-shunane/)
-- [Prof. Alberto Molinari](https://webapps.unitn.it/du/en/Persona/PER0004157/Didattica)
+- [Prof. Alberto Molinari](https://webapps.unitn.it/du/en/Persona/PER0004157/Pubblicazioni)
 - [Sasan Amir](https://www.linkedin.com/in/sasanamir/)
 - [Marco Zago](https://www.linkedin.com/in/marco-zago-440724a9/)
 
