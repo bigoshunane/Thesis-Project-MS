@@ -24,7 +24,7 @@ extension of interparticle contacts since plastic deformation modifies significa
 
 ## Approach (How?
 -  EXPERIMENTAL APPROACH
-   -  Metal powder cold compaction and Metallographic analsis:
+   -  Metal powder cold compaction and Metallographic analYsis:
       -  A. Measuring interparticles contact length.
       -  B. Measuring particles mean diameter and computing equivalent diameter.
 
