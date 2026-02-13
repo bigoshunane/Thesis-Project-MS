@@ -94,7 +94,7 @@ increasing on increasing green density & particle size.
 
   - These findings confirm that anisotropy in green microstructure significantly influences sintering shrinkage behavior and highlight the importance of incorporating accurate material constitutive data in theoretical and numerical modeling of powder compaction and sintering processes.
     
-# Future Work
+### Future Work
 - Incorporate full true stress–strain curve of AISI 316L.
 - Extend model to multi-particle systems.
 
