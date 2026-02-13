@@ -22,16 +22,12 @@ Most theoretical studies neglect the plastic deformation of metal powder particl
   - Transversal direction
 The measured contact lengths will be used to evaluate directional differences in contact growth resulting from uniaxial compaction.
 
----
-
 ### 2. Verification of the Sintering Shrinkage Equation
 To validate the previously developed shrinkage kinetics equation by:
 - Introduce experimentally measured contact lengths into the previously developed shrinkage kinetics model.
 - Incorporate a time-dependent effective bulk diffusion coefficient (`D_eff`).
 - Compare predicted directional shrinkage with experimentally measured dimensional change.
 This objective aims to confirm that anisotropic contact geometry directly influences anisotropic sintering shrinkage.
-
----
 
 ### 3. Verification of the FEM Deformation Model
 To verify the finite element model developed for predicting particle deformation during cold compaction by:
