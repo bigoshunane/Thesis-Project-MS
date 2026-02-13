@@ -1,7 +1,7 @@
 
 
 # Project Title
-## THE STUDY OF THE ANISOTROPIC MICROSTRUCTURE OF THE UNIAXIALLY COLD COMPACTED METAL POWDER (GREEN PARTS)
+## The Study of the Anisotropic Microstructure of Uniaxially Cold Compacted Metal Powder
 ## Background
 Most theoretical studies neglect the plastic deformation of metal powder particles during uniaxial cold compaction. However, particle deformation gives rise to two important phenomena. First, structural activity which occurs in the form of deformation-induced defects within the powder particles, it significantly influences mass-transport mechanisms and contributes to anisotropic shrinkage during sintering. Second, geometrical activity which results from plastic deformation at interparticle contacts, leading to contact extension and altered particle morphology. This geometrical modification changes the relationship between neck growth and particle shrinkage, further promoting anisotropic dimensional changes. In addition, the increased dislocation density introduced by plastic deformation produces an inhomogeneous microstructure in the green body and enhances the extension of interparticle contacts, as plastic flow substantially modifies contact morphology.
 
