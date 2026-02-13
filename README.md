@@ -49,7 +49,7 @@ The agreement between predicted and measured contact ratios will assess the reli
       -  A. Measuring interparticles contact length.
       -  B. Measuring particles mean diameter and computing equivalent diameter.
 
--  Contact length measurement
+Contact length measurement:
 
 ![contactlengthmeasurement](https://user-images.githubusercontent.com/84547558/224465971-fa1b1994-f17d-4d85-a448-c4b3373fb8bd.png)
 
