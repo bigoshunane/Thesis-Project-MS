@@ -11,51 +11,38 @@ Most theoretical studies neglect the plastic deformation of metal powder particl
  ![coldcompaction](https://user-images.githubusercontent.com/84547558/225505944-65618106-701f-4be8-8a4c-7858b4bbee7e.png)
  
     Fig.1 Micrograph showing morphological change of particles during cold compaction.
-## Objective: What?
-1. Experimental Verification of Microstructural Anisotropy
+## Objectives: What?
 
-To verify the anisotropy of dimensional change in green compacts of austenitic stainless steel powder (AISI 316L) through:
+### 1. Experimental Verification of Microstructural Anisotropy
 
-               -  Metallographic preparation of green parts _
-
-               -  Measurement of interparticle contact lengths
-
-               -  Quantification of contact geometry along:
-
-                              -  Longitudinal (pressing) direction
-                              -  Transversal direction
-
+- Prepare metallographic samples of uniaxially cold-compacted AISI 316L green parts.
+- Measure interparticle contact lengths from metallographic images.
+- Quantify contact geometry along:
+  - Longitudinal (pressing) direction
+  - Transversal direction
 The measured contact lengths will be used to evaluate directional differences in contact growth resulting from uniaxial compaction.
 
-2. Verification of the Sintering Shrinkage Equation
+---
 
+### 2. Verification of the Sintering Shrinkage Equation
 To validate the previously developed shrinkage kinetics equation by:
-
-    - Introducing experimentally measured contact lengths into the shrinkage model
-
-    - Incorporating a time-dependent effective bulk diffusion coefficient 𝐷𝑒𝑓𝑓(𝑡)Deff (t)
-
-    - Comparing predicted directional shrinkage with experimentally measured dimensional change
-
+- Introduce experimentally measured contact lengths into the previously developed shrinkage kinetics model.
+- Incorporate a time-dependent effective bulk diffusion coefficient (`D_eff`).
+- Compare predicted directional shrinkage with experimentally measured dimensional change.
 This objective aims to confirm that anisotropic contact geometry directly influences anisotropic sintering shrinkage.
 
-3. Verification of the FEM Deformation Model
+---
 
+### 3. Verification of the FEM Deformation Model
 To verify the finite element model developed for predicting particle deformation during cold compaction by:
-
-    - Measuring mean particle diameters from metallographic images
-
-    - Computing equivalent particle diameter
-
-    - Introducing experimentally determined stress–strain data and material properties
-
-    - Comparing FEM-predicted contact lengths with experimentally measured values
-
-Evaluating directional deformation behavior along:
-
-              - Longitudinal direction
-
-              - Transversal direction
+- Measure mean particle diameters from metallographic images.
+- Compute equivalent particle diameters for numerical modeling.
+- Introduce experimentally determined stress–strain data and material properties into the FEM model.
+- Predict particle deformation and contact growth during cold compaction.
+- Compare FEM-predicted contact lengths with experimentally measured values.
+- Evaluate deformation anisotropy along:
+    - longitudinal and
+    - transversal directions.
 
 The agreement between predicted and measured contact ratios will assess the reliability of the mechanical deformation model.
 ## Approach: How?
