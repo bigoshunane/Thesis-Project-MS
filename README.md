@@ -77,7 +77,7 @@ values.
 
   -  The `theoretical calculation does not predict properly the contact length due to deformation`,
 because `the actual stress-strain curve of AISI 316L was not used`; the differences in yield strength &
-strain hardening coefficiend modifiy the results.
+strain hardening coefficient modifiy the results.
 
   -  Neverthless, the ratio between contact lengths is very close to the measured one; hence, it will be
 expected to have the `actual values when the true stress-strain curve of AISI 316L will be used`.
