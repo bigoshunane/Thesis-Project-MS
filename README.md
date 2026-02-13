@@ -93,6 +93,10 @@ increasing on increasing green density & particle size.
   - Although absolute contact lengths were not accurately predicted due to the use of simplified material parameters, particularly the absence of the true stress–strain curve of AISI 316L, the predicted directional ratios closely matched experimental results.
 
   - These findings confirm that anisotropy in green microstructure significantly influences sintering shrinkage behavior and highlight the importance of incorporating accurate material constitutive data in theoretical and numerical modeling of powder compaction and sintering processes.
+    
+# Future Work
+- Incorporate full true stress–strain curve of AISI 316L.
+- Extend model to multi-particle systems.
 
 ## Authors
 
