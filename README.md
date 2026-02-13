@@ -12,12 +12,52 @@ Most theoretical studies neglect the plastic deformation of metal powder particl
  
     Fig.1 Micrograph showing morphological change of particles during cold compaction.
 ## Objective: What?
--  Verification of the anisotropy of dimensional change of the microstructures of uniaxially cold compacted green parts/austenitic steel powder AISI-316L; by experimental approach; i.e by measuring interparticles contact length of metallographic images.
-    
--  Verify sintering shrinkage equation developed in previous work considering time depending bulk diffusion coefficient (Deff).
+1. Experimental Verification of Microstructural Anisotropy
 
--  Verify FEM Model developed for prediction of particles deformation during cold compaction along traversal and longitudinal directions by measuring particles mean diameters and introducing computed equivalent diameter into the FEM model.
+To verify the anisotropy of dimensional change in green compacts of austenitic stainless steel powder (AISI 316L) through:
 
+               - Metallographic preparation of green parts
+
+               - Measurement of interparticle contact lengths
+
+               - Quantification of contact geometry along:
+
+                              - Longitudinal (pressing) direction
+                              - Transversal direction
+
+The measured contact lengths will be used to evaluate directional differences in contact growth resulting from uniaxial compaction.
+
+2. Verification of the Sintering Shrinkage Equation
+
+To validate the previously developed shrinkage kinetics equation by:
+
+    - Introducing experimentally measured contact lengths into the shrinkage model
+
+    - Incorporating a time-dependent effective bulk diffusion coefficient 𝐷𝑒𝑓𝑓(𝑡)Deff (t)
+
+    - Comparing predicted directional shrinkage with experimentally measured dimensional change
+
+This objective aims to confirm that anisotropic contact geometry directly influences anisotropic sintering shrinkage.
+
+3. Verification of the FEM Deformation Model
+
+To verify the finite element model developed for predicting particle deformation during cold compaction by:
+
+    - Measuring mean particle diameters from metallographic images
+
+    - Computing equivalent particle diameter
+
+    - Introducing experimentally determined stress–strain data and material properties
+
+    - Comparing FEM-predicted contact lengths with experimentally measured values
+
+Evaluating directional deformation behavior along:
+
+              - Longitudinal direction
+
+              - Transversal direction
+
+The agreement between predicted and measured contact ratios will assess the reliability of the mechanical deformation model.
 ## Approach: How?
 -  EXPERIMENTAL APPROACH
    -  Metal powder cold compaction and Metallographic analysis:
