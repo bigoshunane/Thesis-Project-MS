@@ -98,7 +98,7 @@ increasing on increasing green density & particle size.
 - Incorporate full true stress–strain curve of AISI 316L.
 - Extend model to multi-particle systems.
 
-## Authors
+### Authors
 
 - [Workineh Shunane](https://www.linkedin.com/in/workineh-shunane/)
 - [Prof. Alberto Molinari](https://webapps.unitn.it/du/en/Persona/PER0004157/Pubblicazioni)
