@@ -16,7 +16,7 @@ Most theoretical studies neglect the plastic deformation of metal powder particl
 
 To verify the anisotropy of dimensional change in green compacts of austenitic stainless steel powder (AISI 316L) through:
 
-               - Metallographic preparation of green parts
+                   _ Metallographic preparation of green parts _
 
                - Measurement of interparticle contact lengths
 
