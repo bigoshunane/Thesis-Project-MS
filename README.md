@@ -44,7 +44,7 @@ To verify the finite element model developed for predicting particle deformation
 
 The agreement between predicted and measured contact ratios will assess the reliability of the mechanical deformation model.
 ## Approach: How?
--  EXPERIMENTAL APPROACH
+-  Experimental approach
    -  Metal powder cold compaction and Metallographic analysis:
       -  A. Measuring interparticles contact length.
       -  B. Measuring particles mean diameter and computing equivalent diameter.
