@@ -46,8 +46,8 @@ The agreement between predicted and measured contact ratios will assess the reli
 ## Approach: How?
 -  Experimental approach
    -  Metal powder cold compaction and Metallographic analysis:
-      -  A. Measuring interparticles contact length.
-      -  B. Measuring particles mean diameter and computing equivalent diameter.
+        A. Measuring interparticles contact length.
+        B. Measuring particles mean diameter and computing equivalent diameter.
 
 Contact length measurement:
 
