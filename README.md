@@ -16,14 +16,14 @@ Most theoretical studies neglect the plastic deformation of metal powder particl
 
 To verify the anisotropy of dimensional change in green compacts of austenitic stainless steel powder (AISI 316L) through:
 
-                   _ Metallographic preparation of green parts _
+               -  Metallographic preparation of green parts _
 
-               - Measurement of interparticle contact lengths
+               -  Measurement of interparticle contact lengths
 
-               - Quantification of contact geometry along:
+               -  Quantification of contact geometry along:
 
-                              - Longitudinal (pressing) direction
-                              - Transversal direction
+                              -  Longitudinal (pressing) direction
+                              -  Transversal direction
 
 The measured contact lengths will be used to evaluate directional differences in contact growth resulting from uniaxial compaction.
 
