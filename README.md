@@ -11,14 +11,14 @@ Most theoretical studies neglect the plastic deformation of metal powder particl
  ![coldcompaction](https://user-images.githubusercontent.com/84547558/225505944-65618106-701f-4be8-8a4c-7858b4bbee7e.png)
  
     Fig.1 Micrograph showing morphological change of particles during cold compaction.
-## Objective:What?
+## Objective: What?
 -  Verification of the anisotropy of dimensional change of the microstructures of uniaxially cold compacted green parts/austenitic steel powder AISI-316L; by experimental approach; i.e by measuring interparticles contact length of metallographic images.
     
 -  Verify sintering shrinkage equation developed in previous work considering time depending bulk diffusion coefficient (Deff).
 
 -  Verify FEM Model developed for prediction of particles deformation during cold compaction along traversal and longitudinal directions by measuring particles mean diameters and introducing computed equivalent diameter into the FEM model.
 
-## Approach:How?
+## Approach: How?
 -  EXPERIMENTAL APPROACH
    -  Metal powder cold compaction and Metallographic analysis:
       -  A. Measuring interparticles contact length.
