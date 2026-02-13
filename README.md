@@ -25,20 +25,20 @@ The measured contact lengths will be used to evaluate directional differences in
 
 ### 2. Verification of the Sintering Shrinkage Equation
 To validate the previously developed shrinkage kinetics equation by:
-- Introduce experimentally measured contact lengths into the previously developed shrinkage kinetics model.
-- Incorporate a time-dependent effective bulk diffusion coefficient (`D_eff`).
-- Compare predicted directional shrinkage with experimentally measured dimensional change.
+- Introducing experimentally measured contact lengths into the previously developed shrinkage kinetics model.
+- Incorporating a time-dependent effective bulk diffusion coefficient (`D_eff`).
+- Comparing predicted directional shrinkage with experimentally measured dimensional change.
   
 This objective aims to confirm that anisotropic contact geometry directly influences anisotropic sintering shrinkage.
 
 ### 3. Verification of the FEM Deformation Model
 To verify the finite element model developed for predicting particle deformation during cold compaction by:
-- Measure mean particle diameters from metallographic images.
-- Compute equivalent particle diameters for numerical modeling.
-- Introduce experimentally determined stress–strain data and material properties into the FEM model.
-- Predict particle deformation and contact growth during cold compaction.
-- Compare FEM-predicted contact lengths with experimentally measured values.
-- Evaluate deformation anisotropy along:
+- Measuring mean particle diameters from metallographic images.
+- Computing equivalent particle diameters for numerical modeling.
+- Introducing experimentally determined stress–strain data and material properties into the FEM model.
+- Predicting particle deformation and contact growth during cold compaction.
+- Comparing FEM-predicted contact lengths with experimentally measured values.
+- Evaluating deformation anisotropy along:
     - longitudinal and
     - transversal directions.
 
@@ -70,7 +70,6 @@ Contact length measurement:
 ![shrinkage](https://user-images.githubusercontent.com/84547558/224478208-c4edbbf0-c95c-41f2-8f44-33e839eb5c9f.png)
 
 -  Effective diffusivity
-
 ![Deff](https://user-images.githubusercontent.com/84547558/224478837-abd5fa61-d71a-40fe-a908-49c85f66c57f.png)
 
 
