@@ -58,29 +58,17 @@ Most theoretical studies neglect the plastic deformation of metal powder particl
 ![ansys-3](https://user-images.githubusercontent.com/84547558/225506425-d45d6b09-51ff-4165-a90a-d12b38d4328a.png)
 
 ## Summary
-  -  The measurement of length of interparticle contact regions verified the anisotropy of dimensional
-change `resulting in differet values` along both traversal and longitudinal directions.
-  -  The contact number & effective contact number along transversal & longitudinal directions also
-verified the `anisotropy of shrinkge showing different values along the two directions` and slightly
+  - The present study investigates the anisotropic microstructural evolution and sintering behavior of uniaxially cold-compacted AISI 316L metal powder. Quantitative measurements of interparticle contact lengths revealed pronounced anisotropy in dimensional change, with distinct values observed along the transversal and longitudinal directions.
+  -  Analysis of contact number and effective contact number further confirmed directional dependence, demonstrating slightly increased anisotropy with increasing green density and particle size.
 increasing on increasing green density & particle size.
-  -  The `values of shrinkage estimated` by introducing measured contact lengths in a theoretically
-developed shrinkage kinetics equation `verified the anisotropy of sintering shrinkage` by resulting
-in different values along both directions.
-  -  The `effective diffusivity` suitable during `sintering cycle` for the green part has been calculated to
-account for overestimation made during shrinkage estimation & it increases on increasing density
-and particle size, but more pronounced along longitudinal direction.
+  - Measured contact lengths were incorporated into a theoretically developed shrinkage kinetics model to estimate directional sintering shrinkage. The results verified the anisotropic nature of shrinkage, yielding different magnitudes along the two principal directions. 
+  - To address shrinkage overestimation, effective diffusivity during the sintering cycle was calculated, showing an increase with both green density and particle size, with a more pronounced effect in the longitudinal direction.
 
-  -  `FEM model developed for deformation of a particle during cold compaction has been verified` by
-introducing measured equivalent diameter of the particles, stress-strain curve data points & other
-material properties. The resut showed very close with `1% deviation in ratio` with the measured
-values.
+  - A finite element model (FEM) was developed to simulate particle deformation during cold compaction using experimentally measured equivalent particle diameters and stress–strain data. The simulation demonstrated excellent agreement with experimental measurements, with approximately 1% deviation in predicted ratios.
 
-  -  The `theoretical calculation does not predict properly the contact length due to deformation`,
-because `the actual stress-strain curve of AISI 316L was not used`; the differences in yield strength &
-strain hardening coefficient modifiy the results.
+  - Although absolute contact lengths were not accurately predicted due to the use of simplified material parameters, particularly the absence of the true stress–strain curve of AISI 316L, the predicted directional ratios closely matched experimental results.
 
-  -  Neverthless, the ratio between contact lengths is very close to the measured one; hence, it will be
-expected to have the `actual values when the true stress-strain curve of AISI 316L will be used`.
+  - These findings confirm that anisotropy in green microstructure significantly influences sintering shrinkage behavior and highlight the importance of incorporating accurate material constitutive data in theoretical and numerical modeling of powder compaction and sintering processes.
 
 ## Authors
 
